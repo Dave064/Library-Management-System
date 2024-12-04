@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('sign\ up\ img.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.signin-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.signin-container {
+  background-color: #ffffff; /* Solid white background */
+  padding: 40px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group label {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  margin-top: 15px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .signin-container {
+    padding: 30px 20px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}

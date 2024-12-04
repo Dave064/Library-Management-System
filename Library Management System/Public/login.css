@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('login\ pg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for contrast */
+  padding: 40px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.input-group i {
+  color: #888;
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

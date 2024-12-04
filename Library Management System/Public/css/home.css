@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: #333;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .logo span {
+    color: #007bff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px 100px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    animation: slideInLeft 1s ease-out;
+  }
+  
+  .hero-content h1 span {
+    color: #007bff;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-top: 10px;
+    animation: fadeIn 1.5s ease-out;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-card i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #007bff;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
