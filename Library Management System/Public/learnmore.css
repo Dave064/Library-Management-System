@@ -1,0 +1,81 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .about-library-hub {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, black, royalblue);
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Bold Styling for Library Hub */
+  .bold {
+    font-weight: bold;
+    color: royalblue;
+  }
+  
+  /* Static Heading */
+  h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Flashy Subheadings */
+  h2 {
+    font-size: 2rem;
+    color: royalblue;
+    animation: subtleGlow 4s infinite alternate;
+  }
+  
+  /* Paragraphs */
+  p, ul li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  
+  /* Keyframe Animations */
+  @keyframes subtleGlow {
+    from {
+      text-shadow: 0 0 8px royalblue;
+    }
+    to {
+      text-shadow: 0 0 15px white, 0 0 20px royalblue;
+    }
+  }
+  
+  /* Closing Text */
+  .closing {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px white;
+  }
+  
